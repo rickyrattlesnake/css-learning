@@ -13,3 +13,14 @@
 span[class="test"] {
     color: blue;
 }
+
+/*  Resolving importance */
+/*  Generally not used unless building a utility classes
+    to overcome the low 0,0,1,0 specificity */
+div.importance-1 {
+    background-color: green !important;
+}
+
+div.importance-2 {
+    background-color: red;
+}
