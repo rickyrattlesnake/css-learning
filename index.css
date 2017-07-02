@@ -1,0 +1,15 @@
+/* Star Selector */ 
+* {
+    background: transparent;
+}
+
+
+/* Duplicate ID's still work in most browsers but it does
+   not respect the HTML5 spec */
+#duplicate {
+    color: red;
+}
+
+span[class="test"] {
+    color: blue;
+}
