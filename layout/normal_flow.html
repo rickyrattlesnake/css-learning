@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="../css-normalise.css">
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body>        
+        <h1>Layout - Normal Flow Model</h1>
+        <p><em>Normal / Static</em> positioning is the default behaviour and belong to a formatting context.</p>
+        <ul>
+            <li>The box formatting context can be block or inline (but not both)</li>
+            <li><em>Block Formatting Context</em>
+                <ul>
+                    <li>Elements are laid out vertically.</li>
+                    <li>Vertical margins collapse.</li>
+                    <li>Box's left outer edge touches containing block's left edge</li>
+                </ul>
+            </li>
+            <li><em>Inline Formatting Context</em>
+                <ul>
+                    <li>Boxes laid out horizontally, one after another</li>
+                    <li>Vertical alignment is possible inside this context. (baseline, top, bottom)</li>
+                    <li><em>line box</em> is the rectangular area that forms a line of these boxes</li>
+                    <li>line box height is determined by line-height</li>
+                    <li>line box width is determined by containing block and the prescence of floats</li>
+                    <li>when several inline-level boxes do not fit horizontally their line boxes are stacked vertically</li>
+                    <li>line box edges will touch edges of containing block unless there are floats</li>
+                </ul>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="../css-normalise.css">
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body>        
+        <h1>Layout - Float Positioning Model</h1>
+        <p><em>Float</em> positions the element </p>
+        <ul>
+            <li>The containing block is the closest ancestor that is also positioned (not static).</li>
+            <li>Removed from normal flow, and does not impact positions of later siblings.</li>
+            <li>Creates a new containing block for child elements</li>
+            <li>Offset from the containng block using <i>top, bottom, right, and bottom</i></li>
+            <li>Without a <i>width</i>, specifying <i>left</i> and <i>right</i> will apply a width to a positioned element. Otherwise left takes precedence.</li>
+        </ul>
+
+        <p>Elements with a <em>Clear</em> property will be positions below floats of the type cleared.</p>
+        <ul>
+            <li>both: specifies clear both left floats and right floats.</li>
+            <li></li>
+            <li></li>
+        </ul>
+
+        <div class="container-absolute">
+            <div class="box absolute"></div>
+        </div>
+        <div class="container-relative">
+            <div class="box absolute"></div>
+        </div>
+    </body>
+</html>

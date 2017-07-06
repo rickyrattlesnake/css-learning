@@ -1,15 +1,47 @@
 body {
     background-color: #34383f;
+    padding: 20px;
+    height: 1000px;
+    color: #e3e8ef;
 }
 
 h1 {
     font-size: 1.2em;
-}
-
-h1, p {
-    color: #e3e8ef;
+    margin-top: 100px;
+    text-align: center;
 }
 
 em {
     color: #d0a55d;
+}
+
+.box {
+    height: 100px;
+    display: block;
+}
+
+
+.box.fixed {
+    position: fixed;
+    top: 10px;
+    left: 300px;
+    right: 300px;
+    background-color: #76b776;
+}
+
+.box.absolute {
+    background-color: #6a8ba9;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 50px;
+    left: 50px;
+}
+
+.container {
+    background-color: #550112;
+    position: relative;
+    left: 100px;
+    height: 150px;
+    width: 150px;
 }
